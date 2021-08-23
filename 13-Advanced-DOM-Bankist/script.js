@@ -314,3 +314,9 @@ const slider = () => {
 };
 
 slider();
+
+// defer and async in script tag
+// defer is fire when HTML is completely parsed
+// async is not waiting all the script file completely executed
+// so best solution is using defer and async is using for 3rd party lib
+//  defer and async is not supporting old browser
